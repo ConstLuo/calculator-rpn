@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/calculator-business/calculator-bussiness.iml" filepath="$PROJECT_DIR$/calculator-business/calculator-bussiness.iml" />
+      <module fileurl="file://$PROJECT_DIR$/calculator-business/calculator-business.iml" filepath="$PROJECT_DIR$/calculator-business/calculator-business.iml" />
       <module fileurl="file://$PROJECT_DIR$/calculator-common/calculator-common.iml" filepath="$PROJECT_DIR$/calculator-common/calculator-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/calculator-model/calculator-model.iml" filepath="$PROJECT_DIR$/calculator-model/calculator-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/calculator-rpn.iml" filepath="$PROJECT_DIR$/calculator-rpn.iml" />
       <module fileurl="file://$PROJECT_DIR$/calculator-start/calculator-start.iml" filepath="$PROJECT_DIR$/calculator-start/calculator-start.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rpn-calculator.iml" filepath="$PROJECT_DIR$/rpn-calculator.iml" />
     </modules>
   </component>
 </project>

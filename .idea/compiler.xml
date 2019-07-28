@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="calculator-business" />
         <module name="calculator-bussiness" />
         <module name="calculator-common" />
         <module name="calculator-model" />
@@ -13,9 +14,11 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="calculator-business" target="1.8" />
       <module name="calculator-bussiness" target="1.8" />
       <module name="calculator-common" target="1.8" />
       <module name="calculator-model" target="1.8" />
+      <module name="calculator-rpn" target="1.8" />
       <module name="calculator-start" target="1.8" />
       <module name="rpn-calculator" target="1.8" />
     </bytecodeTargetLevel>

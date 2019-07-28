@@ -19,7 +19,7 @@
     </parent>
 
     <groupId>org.test.luojin</groupId>
-    <artifactId>rpn-calculator</artifactId>
+    <artifactId>calculator-rpn</artifactId>
     <version>1.0.0</version>
     <name>calculator</name>
     <description>Calculator project for Spring Boot</description>
@@ -51,7 +51,7 @@
             </dependency>
             <dependency>
                 <groupId>org.test.luojin</groupId>
-                <artifactId>calculator-bussiness</artifactId>
+                <artifactId>calculator-business</artifactId>
                 <version>${business.version}</version>
             </dependency>
         </dependencies>

@@ -30,7 +30,7 @@
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.yaml:snakeyaml:1.23" level="project" />
     <orderEntry type="module" module-name="calculator-model" />
     <orderEntry type="module" module-name="calculator-common" />
-    <orderEntry type="module" module-name="calculator-bussiness" />
+    <orderEntry type="module" module-name="calculator-business" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:5.1.8.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.1.8.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.1.8.RELEASE" level="project" />

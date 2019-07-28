@@ -39,10 +39,11 @@ public class Calculator {
         return logErrorMessage;
     }
 
+    private static boolean flag = true;
+
     /**
      * 计算结果
      *
-     * @return 表达式计算结果
      * @throws FormatException
      */
     public void calculate(String expression) throws FormatException {
@@ -64,7 +65,6 @@ public class Calculator {
      */
     private void handleCalculate(String expression) throws FormatException {
         String[] exp = expression.split(" ");
-        boolean flag = true;
         for (int i = 0; i < exp.length; i++) {
             if (flag) {
                 Double temp = CommonUtils.strToDigit(exp[i]);
@@ -79,31 +79,55 @@ public class Calculator {
                             functionRule.rules(numsStack, logsStack, opt);
                             break;
                         case SQUARE:
-                            if (numsStack.size() > 0) {
-                                unaryOperatorRule.rules(numsStack, logsStack, opt);
-                            } else {
-                                setLogErrorMessage("operator" + exp[i] + "(position:" + (2 * i - 1) + "):insufficient parameters ");
-                                System.out.println("operator" + exp[i] + "(position:" + (2 * i - 1) + "):insufficient parameters ");
-                                flag = false;
-                            }
+                            handleUnaryOptCalculate(opt, exp, i);
                             break;
                         case ADD:
                         case SUBTRACT:
                         case MULTIPLY:
                         case DIVISION:
-                            if (numsStack.size() > 1) {
-                                binaryOperatorRule.rules(numsStack, logsStack, opt);
-                            } else {
-                                setLogErrorMessage("operator" + exp[i] + "(position:" + (2 * i + 1) + "):insufficient parameters ");
-                                System.out.println("operator" + exp[i] + "(position:" + (2 * i + 1) + "):insufficient parameters ");
-                                flag = false;
-                            }
+                            handleBinaryOptCalculate(opt, exp, i);
                             break;
                         default:
                             throw new FormatException("输入的RPN表达式不合法！");
                     }
                 }
             }
+        }
+    }
+
+    /**
+     * 处理 一元运算符计算法则
+     *
+     * @param opt
+     * @param exp
+     * @param i
+     * @throws FormatException
+     */
+    private void handleUnaryOptCalculate(OperatorsEnums opt, String[] exp, int i) throws FormatException {
+        if (numsStack.size() > 0) {
+            unaryOperatorRule.rules(numsStack, logsStack, opt);
+        } else {
+            setLogErrorMessage("operator" + exp[i] + "(position:" + (2 * i - 1) + "):insufficient parameters ");
+            System.out.println("operator" + exp[i] + "(position:" + (2 * i - 1) + "):insufficient parameters ");
+            flag = false;
+        }
+    }
+
+    /**
+     * 处理 二元运算符计算法则
+     *
+     * @param opt
+     * @param exp
+     * @param i
+     * @throws FormatException
+     */
+    private void handleBinaryOptCalculate(OperatorsEnums opt, String[] exp, int i) throws FormatException {
+        if (numsStack.size() > 1) {
+            binaryOperatorRule.rules(numsStack, logsStack, opt);
+        } else {
+            setLogErrorMessage("operator" + exp[i] + "(position:" + (2 * i + 1) + "):insufficient parameters ");
+            System.out.println("operator" + exp[i] + "(position:" + (2 * i + 1) + "):insufficient parameters ");
+            flag = false;
         }
     }
 }
