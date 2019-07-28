@@ -1,10 +1,12 @@
 package org.test.luo.jin.calculator.business;
 
 import org.springframework.stereotype.Component;
+import org.test.luo.jin.calculator.common.constants.NumberConstant;
 import org.test.luo.jin.calculator.common.exception.FormatException;
 import org.test.luo.jin.calculator.common.util.CommonUtils;
 import org.test.luo.jin.calculator.model.OperatorsEnums;
 
+import java.math.BigDecimal;
 import java.util.List;
 import java.util.Stack;
 
@@ -21,13 +23,13 @@ public class Calculator {
 
     private FunctionRule functionRule = new FunctionRule();
 
-    private Stack<Double> numsStack = new Stack<>();
+    private Stack<BigDecimal> numsStack = new Stack<>();
 
-    private Stack<List<Double>> logsStack = new Stack<>();
+    private Stack<List<BigDecimal>> logsStack = new Stack<>();
 
     private String logErrorMessage;
 
-    public Stack<Double> getNumsStack() {
+    public Stack<BigDecimal> getNumsStack() {
         return numsStack;
     }
 
@@ -47,7 +49,7 @@ public class Calculator {
      * @throws FormatException
      */
     public void calculate(String expression) throws FormatException {
-        if (expression == null || expression.length() < 0) {
+        if (expression == null || expression.length() == NumberConstant.NUMBER_0) {
             return;
         }
         if (!numsStack.empty()) {
@@ -65,9 +67,9 @@ public class Calculator {
      */
     private void handleCalculate(String expression) throws FormatException {
         String[] exp = expression.split(" ");
-        for (int i = 0; i < exp.length; i++) {
+        for (int i = NumberConstant.NUMBER_0; i < exp.length; i++) {
             if (flag) {
-                Double temp = CommonUtils.strToDigit(exp[i]);
+                BigDecimal temp = CommonUtils.strToDigit(exp[i]);
                 if (temp != null) {
                     numsStack.push(temp);
                     logsStack.push(CommonUtils.getStack(numsStack));
@@ -104,11 +106,13 @@ public class Calculator {
      * @throws FormatException
      */
     private void handleUnaryOptCalculate(OperatorsEnums opt, String[] exp, int i) throws FormatException {
-        if (numsStack.size() > 0) {
+        if (numsStack.size() > NumberConstant.NUMBER_0) {
             unaryOperatorRule.rules(numsStack, logsStack, opt);
         } else {
-            setLogErrorMessage("operator" + exp[i] + "(position:" + (2 * i - 1) + "):insufficient parameters ");
-            System.out.println("operator" + exp[i] + "(position:" + (2 * i - 1) + "):insufficient parameters ");
+            setLogErrorMessage("operator" + exp[i] + "(position:" +
+                    (NumberConstant.NUMBER_2 * i - NumberConstant.NUMBER_1) + "):insufficient parameters ");
+            System.out.println("operator" + exp[i] + "(position:" +
+                    (NumberConstant.NUMBER_2 * i - NumberConstant.NUMBER_1) + "):insufficient parameters ");
             flag = false;
         }
     }
@@ -122,11 +126,13 @@ public class Calculator {
      * @throws FormatException
      */
     private void handleBinaryOptCalculate(OperatorsEnums opt, String[] exp, int i) throws FormatException {
-        if (numsStack.size() > 1) {
+        if (numsStack.size() > NumberConstant.NUMBER_1) {
             binaryOperatorRule.rules(numsStack, logsStack, opt);
         } else {
-            setLogErrorMessage("operator" + exp[i] + "(position:" + (2 * i + 1) + "):insufficient parameters ");
-            System.out.println("operator" + exp[i] + "(position:" + (2 * i + 1) + "):insufficient parameters ");
+            setLogErrorMessage("operator" + exp[i] + "(position:" +
+                    (NumberConstant.NUMBER_2 * i + NumberConstant.NUMBER_1) + "):insufficient parameters ");
+            System.out.println("operator" + exp[i] + "(position:" +
+                    (NumberConstant.NUMBER_2 * i + NumberConstant.NUMBER_1) + "):insufficient parameters ");
             flag = false;
         }
     }

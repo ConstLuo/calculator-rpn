@@ -2,22 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41df3920-c1c1-444d-b989-299eab7b9f24" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/calculator-business/calculator-bussiness.iml" afterPath="$PROJECT_DIR$/calculator-business/calculator-business.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rpn-calculator.iml" afterPath="$PROJECT_DIR$/calculator-rpn.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calculator-business/target/classes/org/test/luo/jin/calculator/business/Calculator$1.class" afterPath="$PROJECT_DIR$/calculator-business/target/classes/org/test/luo/jin/calculator/business/Calculator$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calculator-business/target/classes/org/test/luo/jin/calculator/business/Calculator.class" afterPath="$PROJECT_DIR$/calculator-business/target/classes/org/test/luo/jin/calculator/business/Calculator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calculator-start/target/classes/domain/CalculatorApplication.class" afterPath="$PROJECT_DIR$/calculator-start/target/classes/domain/CalculatorApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/calculator-common/src/main/java/org/test/luo/jin/calculator/common/constants/NumberConstant.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calculator-business/pom.xml" afterPath="$PROJECT_DIR$/calculator-business/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calculator-business/src/main/java/org/test/luo/jin/calculator/business/BinaryOperatorRule.java" afterPath="$PROJECT_DIR$/calculator-business/src/main/java/org/test/luo/jin/calculator/business/BinaryOperatorRule.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calculator-business/src/main/java/org/test/luo/jin/calculator/business/Calculator.java" afterPath="$PROJECT_DIR$/calculator-business/src/main/java/org/test/luo/jin/calculator/business/Calculator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calculator-common/pom.xml" afterPath="$PROJECT_DIR$/calculator-common/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calculator-model/pom.xml" afterPath="$PROJECT_DIR$/calculator-model/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calculator-start/calculator-start.iml" afterPath="$PROJECT_DIR$/calculator-start/calculator-start.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calculator-start/pom.xml" afterPath="$PROJECT_DIR$/calculator-start/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calculator-start/src/main/java/domain/CalculatorApplication.java" afterPath="$PROJECT_DIR$/calculator-start/src/main/java/domain/CalculatorApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calculator-business/src/main/java/org/test/luo/jin/calculator/business/FunctionRule.java" afterPath="$PROJECT_DIR$/calculator-business/src/main/java/org/test/luo/jin/calculator/business/FunctionRule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calculator-business/src/main/java/org/test/luo/jin/calculator/business/UnaryOperatorRule.java" afterPath="$PROJECT_DIR$/calculator-business/src/main/java/org/test/luo/jin/calculator/business/UnaryOperatorRule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calculator-common/src/main/java/org/test/luo/jin/calculator/common/util/CommonUtils.java" afterPath="$PROJECT_DIR$/calculator-common/src/main/java/org/test/luo/jin/calculator/common/util/CommonUtils.java" />
     </list>
     <ignored path="$PROJECT_DIR$/calculator-business/target/" />
     <ignored path="$PROJECT_DIR$/calculator-model/target/" />
@@ -35,12 +26,12 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="CalculatorApplication.java" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="CalculatorApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/calculator-start/src/main/java/domain/CalculatorApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+            <state relative-caret-position="300">
+              <caret line="20" column="32" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CalculatorTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CalculatorTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/calculator-business/src/test/java/org/test/luo/jin/calculator/business/CalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14">
-              <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+            <state relative-caret-position="39">
+              <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,8 +54,8 @@
       <file leaf-file-name="Calculator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/calculator-business/src/main/java/org/test/luo/jin/calculator/business/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-534">
-              <caret line="48" column="16" lean-forward="false" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+            <state relative-caret-position="203">
+              <caret line="50" column="16" lean-forward="false" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,7 +63,87 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="NumberConstant.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/calculator-common/src/main/java/org/test/luo/jin/calculator/common/constants/NumberConstant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FormatException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/calculator-common/src/main/java/org/test/luo/jin/calculator/common/exception/FormatException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommonUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/calculator-common/src/main/java/org/test/luo/jin/calculator/common/util/CommonUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1035">
+              <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OperatorsEnums.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/calculator-model/src/main/java/org/test/luo/jin/calculator/model/OperatorsEnums.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-62">
+              <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FunctionRule.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/calculator-business/src/main/java/org/test/luo/jin/calculator/business/FunctionRule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="43" column="21" lean-forward="true" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UnaryOperatorRule.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/calculator-business/src/main/java/org/test/luo/jin/calculator/business/UnaryOperatorRule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="379">
+              <caret line="33" column="40" lean-forward="false" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/calculator-business/src/test/java/org/test/luo/jin/calculator/business/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -85,16 +156,21 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/calculator-business/src/main/java/org/test/luo/jin/calculator/business/BinaryOperatorRule.java" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/calculator-business/src/main/java/org/test/luo/jin/calculator/business/Calculator.java" />
         <option value="$PROJECT_DIR$/calculator-business/pom.xml" />
-        <option value="$PROJECT_DIR$/calculator-start/src/main/java/domain/CalculatorApplication.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/calculator-start/pom.xml" />
         <option value="$PROJECT_DIR$/calculator-model/pom.xml" />
         <option value="$PROJECT_DIR$/calculator-common/pom.xml" />
         <option value="$PROJECT_DIR$/calculator-business/src/test/java/org/test/luo/jin/calculator/business/CalculatorTest.java" />
+        <option value="$PROJECT_DIR$/calculator-start/src/main/java/domain/CalculatorApplication.java" />
+        <option value="$PROJECT_DIR$/calculator-common/src/main/java/org/test/luo/jin/calculator/common/constants/Constant.java" />
+        <option value="$PROJECT_DIR$/calculator-business/src/main/java/org/test/luo/jin/calculator/business/Calculator.java" />
+        <option value="$PROJECT_DIR$/calculator-common/src/main/java/org/test/luo/jin/calculator/common/constants/NumberConstant.java" />
+        <option value="$PROJECT_DIR$/calculator-business/src/main/java/org/test/luo/jin/calculator/business/BinaryOperatorRule.java" />
+        <option value="$PROJECT_DIR$/calculator-business/src/main/java/org/test/luo/jin/calculator/business/FunctionRule.java" />
+        <option value="$PROJECT_DIR$/calculator-business/src/main/java/org/test/luo/jin/calculator/business/UnaryOperatorRule.java" />
+        <option value="$PROJECT_DIR$/calculator-common/src/main/java/org/test/luo/jin/calculator/common/util/CommonUtils.java" />
       </list>
     </option>
   </component>
@@ -134,6 +210,11 @@
       <select />
     </treeState>
   </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="731" />
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -152,6 +233,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,6 +251,30 @@
               <item name="calculator-rpn" type="462c0819:PsiDirectoryNode" />
               <item name="calculator-business" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpn-calculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="calculator-rpn" type="462c0819:PsiDirectoryNode" />
+              <item name="calculator-business" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpn-calculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="calculator-rpn" type="462c0819:PsiDirectoryNode" />
+              <item name="calculator-business" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpn-calculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="calculator-rpn" type="462c0819:PsiDirectoryNode" />
+              <item name="calculator-business" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="business" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rpn-calculator" type="b2602c69:ProjectViewProjectNode" />
@@ -193,6 +299,106 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="business" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpn-calculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="calculator-rpn" type="462c0819:PsiDirectoryNode" />
+              <item name="calculator-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpn-calculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="calculator-rpn" type="462c0819:PsiDirectoryNode" />
+              <item name="calculator-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpn-calculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="calculator-rpn" type="462c0819:PsiDirectoryNode" />
+              <item name="calculator-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpn-calculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="calculator-rpn" type="462c0819:PsiDirectoryNode" />
+              <item name="calculator-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpn-calculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="calculator-rpn" type="462c0819:PsiDirectoryNode" />
+              <item name="calculator-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpn-calculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="calculator-rpn" type="462c0819:PsiDirectoryNode" />
+              <item name="calculator-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="constants" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpn-calculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="calculator-rpn" type="462c0819:PsiDirectoryNode" />
+              <item name="calculator-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpn-calculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="calculator-rpn" type="462c0819:PsiDirectoryNode" />
+              <item name="calculator-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpn-calculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="calculator-rpn" type="462c0819:PsiDirectoryNode" />
+              <item name="calculator-model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpn-calculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="calculator-rpn" type="462c0819:PsiDirectoryNode" />
+              <item name="calculator-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpn-calculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="calculator-rpn" type="462c0819:PsiDirectoryNode" />
+              <item name="calculator-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpn-calculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="calculator-rpn" type="462c0819:PsiDirectoryNode" />
+              <item name="calculator-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpn-calculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="calculator-rpn" type="462c0819:PsiDirectoryNode" />
+              <item name="calculator-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rpn-calculator" type="b2602c69:ProjectViewProjectNode" />
@@ -233,10 +439,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -266,7 +471,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.CalculatorApplication">
+  <component name="RunManager" selected="JUnit.CalculatorTest">
     <configuration name="CalculatorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="domain.CalculatorApplication" />
@@ -298,7 +503,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="CalculatorTest.exampleFourTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorTest.exampleFiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="org.test.luo.jin.calculator.business.*" />
@@ -310,7 +515,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="org.test.luo.jin.calculator.business" />
       <option name="MAIN_CLASS_NAME" value="org.test.luo.jin.calculator.business.CalculatorTest" />
-      <option name="METHOD_NAME" value="exampleFourTest" />
+      <option name="METHOD_NAME" value="exampleFiveTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -348,7 +553,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="CalculatorTest.exampleThreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorTest.exampleSixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="org.test.luo.jin.calculator.business.*" />
@@ -360,7 +565,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="org.test.luo.jin.calculator.business" />
       <option name="MAIN_CLASS_NAME" value="org.test.luo.jin.calculator.business.CalculatorTest" />
-      <option name="METHOD_NAME" value="exampleThreeTest" />
+      <option name="METHOD_NAME" value="exampleSixTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -493,19 +698,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.CalculatorApplication" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CalculatorTest.exampleFourTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CalculatorTest.exampleThreeTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CalculatorTest.exampleTwoTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.CalculatorTest.exampleOneTest" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.CalculatorTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CalculatorTest.exampleTwoTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CalculatorTest.exampleOneTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CalculatorTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CalculatorTest.exampleFiveTest" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.CalculatorTest.exampleSixTest" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.CalculatorTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CalculatorTest.exampleOneTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CalculatorTest.exampleTwoTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.CalculatorTest.exampleThreeTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CalculatorTest.exampleFourTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CalculatorTest.exampleFiveTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CalculatorTest.exampleSixTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CalculatorTest.exampleOneTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CalculatorTest.exampleTwoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -519,77 +724,80 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564261077313</updated>
-      <workItem from="1564261078680" duration="8230000" />
+      <workItem from="1564261078680" duration="9191000" />
+      <workItem from="1564292051419" duration="108000" />
+      <workItem from="1564292367265" duration="53000" />
+      <workItem from="1564292460119" duration="5612000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CalculatorTest - 2019.07.28 at 12h 33m 18s.xml">
+    <history-entry file="CalculatorTest - 2019.07.28 at 15h 10m 05s.xml">
       <configuration name="CalculatorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_exampleEightTest - 2019.07.28 at 12h 31m 35s.xml">
-      <configuration name="CalculatorTest.exampleEightTest" configurationId="JUnit" />
+    <history-entry file="CalculatorTest - 2019.07.28 at 15h 22m 21s.xml">
+      <configuration name="CalculatorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_exampleFiveTest - 2019.07.28 at 12h 32m 21s.xml">
+    <history-entry file="CalculatorTest_exampleFiveTest - 2019.07.28 at 15h 14m 16s.xml">
       <configuration name="CalculatorTest.exampleFiveTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_exampleFourTest - 2019.07.28 at 12h 32m 31s.xml">
-      <configuration name="CalculatorTest.exampleFourTest" configurationId="JUnit" />
+    <history-entry file="CalculatorTest_exampleFiveTest - 2019.07.28 at 15h 18m 52s.xml">
+      <configuration name="CalculatorTest.exampleFiveTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_exampleOneTest - 2019.07.28 at 12h 33m 08s.xml">
-      <configuration name="CalculatorTest.exampleOneTest" configurationId="JUnit" />
+    <history-entry file="CalculatorTest_exampleFiveTest - 2019.07.28 at 15h 19m 17s.xml">
+      <configuration name="CalculatorTest.exampleFiveTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_exampleSevenTest - 2019.07.28 at 12h 30m 04s.xml">
-      <configuration name="CalculatorTest.exampleSevenTest" configurationId="JUnit" />
+    <history-entry file="CalculatorTest_exampleFiveTest - 2019.07.28 at 15h 21m 42s.xml">
+      <configuration name="CalculatorTest.exampleFiveTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_exampleSevenTest - 2019.07.28 at 12h 32m 03s.xml">
-      <configuration name="CalculatorTest.exampleSevenTest" configurationId="JUnit" />
+    <history-entry file="CalculatorTest_exampleFiveTest - 2019.07.28 at 15h 21m 58s.xml">
+      <configuration name="CalculatorTest.exampleFiveTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_exampleSixTest - 2019.07.28 at 12h 32m 12s.xml">
+    <history-entry file="CalculatorTest_exampleFiveTest - 2019.07.28 at 15h 34m 02s.xml">
+      <configuration name="CalculatorTest.exampleFiveTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest_exampleSixTest - 2019.07.28 at 15h 22m 08s.xml">
       <configuration name="CalculatorTest.exampleSixTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest_exampleThreeTest - 2019.07.28 at 12h 32m 42s.xml">
-      <configuration name="CalculatorTest.exampleThreeTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CalculatorTest_exampleTwoTest - 2019.07.28 at 12h 32m 56s.xml">
       <configuration name="CalculatorTest.exampleTwoTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8230000" />
+    <option name="totallyTimeSpent" value="14964000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="731" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="731" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42767295" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30775446" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42767295" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32229403" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39937106" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -630,48 +838,77 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/calculator-business/src/test/java/org/test/luo/jin/calculator/business/Application.java">
+    <entry file="file://$PROJECT_DIR$/calculator-business/src/test/java/org/test/luo/jin/calculator/business/CalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="165">
+          <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator-business/src/main/java/org/test/luo/jin/calculator/business/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="45" column="6" lean-forward="false" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator-common/src/main/java/org/test/luo/jin/calculator/common/constants/NumberConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/calculator-business/src/main/java/org/test/luo/jin/calculator/business/FunctionRule.java">
+    <entry file="file://$PROJECT_DIR$/calculator-business/src/test/java/org/test/luo/jin/calculator/business/CalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="165">
+          <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/calculator-model/src/main/java/org/test/luo/jin/calculator/model/OperatorsEnums.java">
+    <entry file="file://$PROJECT_DIR$/calculator-business/src/main/java/org/test/luo/jin/calculator/business/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-71">
-          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <folding />
+        <state relative-caret-position="495">
+          <caret line="45" column="6" lean-forward="false" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/calculator-common/src/main/java/org/test/luo/jin/calculator/common/util/CommonUtils.java">
+    <entry file="file://$PROJECT_DIR$/calculator-common/src/main/java/org/test/luo/jin/calculator/common/constants/Constant.java" />
+    <entry file="file://$PROJECT_DIR$/calculator-business/src/test/java/org/test/luo/jin/calculator/business/CalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="60" column="33" lean-forward="false" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
-          <folding />
+        <state relative-caret-position="270">
+          <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/calculator-business/src/main/java/org/test/luo/jin/calculator/business/CalculatorRules.java">
+    <entry file="file://$PROJECT_DIR$/calculator-business/src/main/java/org/test/luo/jin/calculator/business/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
+        <state relative-caret-position="585">
+          <caret line="45" column="6" lean-forward="true" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -679,7 +916,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -687,17 +923,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calculator-business/src/main/java/org/test/luo/jin/calculator/business/BinaryOperatorRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="112" lean-forward="false" selection-start-line="26" selection-start-column="112" selection-end-line="26" selection-end-column="112" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -705,7 +930,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -725,39 +949,122 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/calculator-business/src/main/java/org/test/luo/jin/calculator/business/UnaryOperatorRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="45">
             <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/calculator-business/src/main/java/org/test/luo/jin/calculator/business/Calculator.java">
+    <entry file="file://$PROJECT_DIR$/calculator-common/src/main/java/org/test/luo/jin/calculator/common/constants/Constant.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/math/BigDecimal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-534">
-          <caret line="48" column="16" lean-forward="false" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+        <state relative-caret-position="226">
+          <caret line="2300" column="28" lean-forward="false" selection-start-line="2300" selection-start-column="28" selection-end-line="2300" selection-end-column="28" />
+          <folding>
+            <element signature="e#34114#34115#0" expanded="true" />
+            <element signature="e#34170#34171#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="724">
+          <caret line="337" column="25" lean-forward="false" selection-start-line="337" selection-start-column="25" selection-end-line="337" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/text/NumberFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="289" column="24" lean-forward="false" selection-start-line="289" selection-start-column="24" selection-end-line="289" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator-business/src/main/java/org/test/luo/jin/calculator/business/BinaryOperatorRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="29" column="36" lean-forward="true" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator-business/src/main/java/org/test/luo/jin/calculator/business/CalculatorRules.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator-business/src/main/java/org/test/luo/jin/calculator/business/FunctionRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="43" column="21" lean-forward="true" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator-business/src/test/java/org/test/luo/jin/calculator/business/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator-business/src/main/java/org/test/luo/jin/calculator/business/UnaryOperatorRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="33" column="40" lean-forward="false" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/calculator-business/src/test/java/org/test/luo/jin/calculator/business/CalculatorTest.java">
+    <entry file="file://$PROJECT_DIR$/calculator-model/src/main/java/org/test/luo/jin/calculator/model/OperatorsEnums.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        <state relative-caret-position="-62">
+          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator-common/src/main/java/org/test/luo/jin/calculator/common/constants/NumberConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator-common/src/main/java/org/test/luo/jin/calculator/common/exception/FormatException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator-common/src/main/java/org/test/luo/jin/calculator/common/util/CommonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator-business/src/main/java/org/test/luo/jin/calculator/business/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="50" column="16" lean-forward="false" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -766,8 +1073,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/calculator-start/src/main/java/domain/CalculatorApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        <state relative-caret-position="300">
+          <caret line="20" column="32" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator-business/src/test/java/org/test/luo/jin/calculator/business/CalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

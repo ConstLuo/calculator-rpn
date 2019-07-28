@@ -1,7 +1,10 @@
 package org.test.luo.jin.calculator.common.util;
 
-import org.test.luo.jin.calculator.common.exception.FormatException;
+import org.test.luo.jin.calculator.common.constants.NumberConstant;
 
+import java.math.BigDecimal;
+import java.math.MathContext;
+import java.math.RoundingMode;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
@@ -12,40 +15,28 @@ import java.util.Stack;
  * @date 2019/7/26 12:54 PM
  **/
 public class CommonUtils {
+
     /**
      * 该方法获取栈中数据，将其存在List集合中
      *
      * @param stk
      */
-    public static List<Double> getStack(Stack<Double> stk) {
-        List<Double> getStk = new ArrayList<>();
-        for (Double x : stk) {
+    public static List<BigDecimal> getStack(Stack<BigDecimal> stk) {
+        List<BigDecimal> getStk = new ArrayList<>();
+        for (BigDecimal x : stk) {
             getStk.add(x);
         }
         return getStk;
     }
 
     /**
-     * 除法计算法则
-     *
-     * @param a 操作数1
-     * @param b 操作数2
-     */
-    public static double div(double a, double b) throws FormatException {
-        if (b == 0) {
-            throw new FormatException("除数不能为0!");
-        }
-        return a / b;
-    }
-
-    /**
-     * 该方法将字符串转换为数字类型Double
+     * 该方法将字符串转换为数字类型
      *
      * @param str
      */
-    public static Double strToDigit(String str) {
+    public static BigDecimal strToDigit(String str) {
         try {
-            double num = Double.valueOf(str);
+            BigDecimal num = new BigDecimal(str);
             return num;
         } catch (Exception e) {
             return null;
@@ -58,11 +49,11 @@ public class CommonUtils {
      *
      * @param stk
      */
-    public static String displayStack(Stack<Double> stk) {
+    public static String displayStack(Stack<BigDecimal> stk) {
         StringBuilder sb = new StringBuilder();
-        if (stk.size() != 0) {
+        if (stk != null && stk.size() != NumberConstant.NUMBER_0) {
             sb.append("stack:");
-            for (Double x : stk) {
+            for (BigDecimal x : stk) {
                 sb.append(" ");
                 sb.append(outputFormat(x));
             }
@@ -79,11 +70,32 @@ public class CommonUtils {
      *
      * @param value 运算结果
      */
-    private static String outputFormat(double value) {
+    private static String outputFormat(BigDecimal value) {
+        double tempVale = value.doubleValue();
         DecimalFormat numformat = new DecimalFormat("##########.##########");
-        String output = numformat.format(value);
+        String output = numformat.format(tempVale);
         return output;
     }
 
+    /**
+     * 牛顿迭代法 开平方
+     *
+     * @param value
+     * @param scale
+     * @return
+     */
+    public static BigDecimal sqrt(BigDecimal value, int scale) {
+        BigDecimal num2 = BigDecimal.valueOf(NumberConstant.NUMBER_2);
+        int precision = NumberConstant.NUMBER_100;
+        MathContext mc = new MathContext(precision, RoundingMode.HALF_UP);
+        BigDecimal deviation = value;
+        int cnt = NumberConstant.NUMBER_0;
+        while (cnt < precision) {
+            deviation = (deviation.add(value.divide(deviation, mc))).divide(num2, mc);
+            cnt++;
+        }
+        deviation = deviation.setScale(scale, BigDecimal.ROUND_HALF_UP);
+        return deviation;
+    }
 
 }

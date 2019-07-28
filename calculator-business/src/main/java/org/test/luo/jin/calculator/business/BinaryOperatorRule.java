@@ -1,10 +1,12 @@
 package org.test.luo.jin.calculator.business;
 
 import org.springframework.stereotype.Component;
+import org.test.luo.jin.calculator.common.constants.NumberConstant;
 import org.test.luo.jin.calculator.common.exception.FormatException;
 import org.test.luo.jin.calculator.common.util.CommonUtils;
 import org.test.luo.jin.calculator.model.OperatorsEnums;
 
+import java.math.BigDecimal;
 import java.util.List;
 import java.util.Stack;
 
@@ -13,7 +15,7 @@ import java.util.Stack;
  * @date 2019/7/26 12:46 PM
  **/
 @Component
-public class BinaryOperatorRule implements CalculatorRules<Stack<Double>, Stack<List<Double>>, OperatorsEnums> {
+public class BinaryOperatorRule implements CalculatorRules<Stack<BigDecimal>, Stack<List<BigDecimal>>, OperatorsEnums> {
 
     /**
      * 方法封装了二元运算符计算法则，可在此方法中增加更多操作符，实现动态扩展。
@@ -24,28 +26,29 @@ public class BinaryOperatorRule implements CalculatorRules<Stack<Double>, Stack<
      * @throws FormatException
      */
     @Override
-    public void rules(Stack<Double> stk1, Stack<List<Double>> stk2, OperatorsEnums opt) throws FormatException {
-        double num2 = stk1.pop();
-        double num1 = stk1.pop();
+    public void rules(Stack<BigDecimal> stk1, Stack<List<BigDecimal>> stk2, OperatorsEnums opt) throws FormatException {
+        BigDecimal num2= stk1.pop();
+        BigDecimal num1 = stk1.pop();
         switch (opt) {
             case ADD:
-                stk1.push(num1 + num2);
+                stk1.push(num1.add(num2));
                 stk2.push(CommonUtils.getStack(stk1));
                 break;
             case SUBTRACT:
-                stk1.push(num1 - num2);
+                stk1.push(num1.subtract(num2));
                 stk2.push(CommonUtils.getStack(stk1));
                 break;
             case MULTIPLY:
-                stk1.push(num1 * num2);
+                stk1.push(num1.multiply(num2));
                 stk2.push(CommonUtils.getStack(stk1));
                 break;
             case DIVISION:
-                stk1.push(CommonUtils.div(num1, num2));
+                stk1.push(num1.divide(num2, NumberConstant.NUMBER_15, BigDecimal.ROUND_HALF_UP));
                 stk2.push(CommonUtils.getStack(stk1));
                 break;
             default:
                 throw new FormatException("ERROR");
+
         }
     }
 }
