@@ -25,7 +25,6 @@ public class BinaryOperatorRule implements CalculatorRules<Stack<Double>, Stack<
      */
     @Override
     public void rules(Stack<Double> stk1, Stack<List<Double>> stk2, OperatorsEnums opt) throws FormatException {
-        System.out.println("kaishi");
         double num2 = stk1.pop();
         double num1 = stk1.pop();
         switch (opt) {

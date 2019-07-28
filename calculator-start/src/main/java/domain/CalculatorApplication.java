@@ -11,17 +11,19 @@ import java.util.Scanner;
         "org.test.luo.jin.calculator.common",
         "org.test.luo.jin.calculator.business"})
 public class CalculatorApplication {
-	public static void main(String[] args) {
-		System.out.print("输入RPN表达式：");
-		Scanner scanner = new Scanner(System.in);
-		String express = scanner.nextLine();
-		Calculator calculator = new Calculator();
-		try {
-			calculator.calculate(express);
-		} catch (FormatException e) {
-			e.printStackTrace();
-		}
-	}
+    public static void main(String[] args) {
+        Calculator calculator = new Calculator();
+        try {
+            while (true) {
+                System.out.print("输入RPN表达式：");
+                Scanner scanner = new Scanner(System.in);
+                String express = scanner.nextLine();
+                calculator.calculate(express);
+            }
+        } catch (FormatException e) {
+            e.printStackTrace();
+        }
+    }
 }
 
 
